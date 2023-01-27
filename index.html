@@ -3,42 +3,42 @@
 <head>
   <script src = "js/scripts.js"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <title>Movie Tickets</title>
+  <title>Pizza Parlor</title>
 </head>
 <body>
-  <form id="movie-tickets">
+  <form id="pizza-parlor">
 
-      <label for="movie-time">Select a time:</label>
-      <select name="movie-time" id="movie-time">
-        <option value="7">7:00</option>
-        <option value="8">8:00</option>
-        <option value="9">9:00</option>
+      <label for="pizza-size">Select a Size:</label>
+      <select name="pizza-size" id="pizza-size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
       </select>
 
-      <label for="movie-name">Select a Movie:</label>
-      <select name="movie-name" id="movie-name">
-        <option value="Sand Movie">Sand Movie</option>
-        <option value="Gorilla Slasher">Gorilla Slasher</option>
-        <option value="Airplane Movie">Airplane</option>
+      <label for="pizza-topping">Select a Topping:</label>
+      <select name="pizza-topping" id="pizza-topping">
+        <option value="cheese">Cheese</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="sausage">sausage</option>
       </select>
 
-      <label for="special">Select an Option:</label>
-      <select name="special" id="special">
-        <option value="Matinee">Matinee</option>
-        <option value="Senior Upcharge">Senior</option>
-        <option value="Youth Upcharge">Youth</option>
+      <label for="pizza-topping">Select a Topping:</label>
+      <select name="pizza-topping" id="pizza-topping">
+        <option value="cheese">Cheese</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="sausage">sausage</option>
       </select>
+
 
       <div>
         <button type="submit">Submit</button>
       </div>
 
   </form>
-  <div class="hidden" id="ticket">
-    <img src="img/code.jpg" alt="your tickets qr code">
-    <h1>Ticket For: <span id="outputName"></span></h1>
-    <p>Special: <span id="outputSpecial"></span></p>
-    <p>Time: <span id="outputTime"></span></p>
+  <div class="hidden" id="pizza-total">
+    <h1>Pizza size: <span id="output-pizza-size"></span></h1>
+    <p>Toppings: <span id="output-pizza-toppings"></span></p>
+    <p>Total: <span id="output-total"></span></p>
   </div>
 </body>
 </html>
