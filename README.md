@@ -1,4 +1,4 @@
-# _John Lenz Portfolio_
+# _John Lenz Pizza Parlor_
 
 #### By _**John Lenz**_
 
@@ -6,8 +6,9 @@
 
 ## Technologies Used
 
-* _HTML_
+* _Html_
 * _CSS_
+*_JavaScript_
 
 
 ## Description
