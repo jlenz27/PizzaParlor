@@ -6,3 +6,12 @@ function PizzaOrder(pizzaSize, pizzaTopping, pizzaToppingTwo){
     this.pizzaToppingTwo = pizzaToppingTwo;
 }
 
+PizzaOrder.prototype.selectedPizza = function() {
+    return this.pizzaSize + " " + this.pizzaTopping + " " + this.pizzaToppingTwo;
+  }
+  
+PizzaOrder.prototype.calculateCost = function() {
+
+
+    
+}
