@@ -67,4 +67,4 @@ Describe: calculateCost()
 
 Test: "It should return the cost of a pizza at a given size and the cost of  multiple toppings(added a third option of toppings)"
 Code: const myPizza = new Pizza("large", "cheese", "cheese", "sausage");
-Expected Output: Pizza: 24
+Expected Output: Pizza: 24addd
