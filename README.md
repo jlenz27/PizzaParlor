@@ -2,7 +2,7 @@
 
 #### By _**John Lenz**_
 
-#### _A portfolio that talks about John and some of his hobbies along with a list of current projects that he is working on_
+#### _A website of a Pizza Parler that allows the user to order a pizza and select the toppings and size that they wont_
 
 ## Technologies Used
 
@@ -13,14 +13,15 @@
 
 ## Description
 
-_This is a webpage that is used to display a portfolio of John Lenz, It uses HTML and CSS to make and stylize the website. It shows basic concepts of HTML and styling with CSS. It inclues a list of projects that he is currently working on along with contact information_
+_This is a webpage that thats the input of a user to select a type of Pizza that they would want to order. The website updates to show the toppings change and the cost of the pizza. It uses a javascript function to calculate the price_
 
 ## GitHub Link
-_https://jlenz27.github.io/Portfolio/_
+_https://github.com/jlenz27/PizzaParlor_
 
 ## Setup/Installation Requirements
 * _Download Repository
-* _Run this program with an Web browser of your choosing_
+* _Open the index.html with a webbrowser to see the website_
+* _fill in the information to see the cost of your pizza_ 
 
 
 ## Known Bugs
@@ -33,7 +34,7 @@ _https://jlenz27.github.io/Portfolio/_
 
 _If you have any issues running this program or wish to contact me please email me at John.lenz29@gmail.com_
 
-Copyright (c) 1/06/2023 John Lenz(s)
+Copyright (c) 1/27/2023 John Lenz(s)
 
 --Tests--
 Describe: PizzaOrder()
