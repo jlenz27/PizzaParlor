@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title></title>
+  <script src = "js/scripts.js"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/scripts.js"></script>
+  <title>Movie Tickets</title>
 </head>
 <body>
+  <form id="movie-tickets">
 
-  
-  
+      <label for="movie-time">Select a time:</label>
+      <select name="movie-time" id="movie-time">
+        <option value="7">7:00</option>
+        <option value="8">8:00</option>
+        <option value="9">9:00</option>
+      </select>
+
+      <label for="movie-name">Select a Movie:</label>
+      <select name="movie-name" id="movie-name">
+        <option value="Sand Movie">Sand Movie</option>
+        <option value="Gorilla Slasher">Gorilla Slasher</option>
+        <option value="Airplane Movie">Airplane</option>
+      </select>
+
+      <label for="special">Select an Option:</label>
+      <select name="special" id="special">
+        <option value="Matinee">Matinee</option>
+        <option value="Senior Upcharge">Senior</option>
+        <option value="Youth Upcharge">Youth</option>
+      </select>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+
+  </form>
+  <div class="hidden" id="ticket">
+    <img src="img/code.jpg" alt="your tickets qr code">
+    <h1>Ticket For: <span id="outputName"></span></h1>
+    <p>Special: <span id="outputSpecial"></span></p>
+    <p>Time: <span id="outputTime"></span></p>
+  </div>
 </body>
 </html>
-  
