@@ -47,13 +47,19 @@ function handleFormSubmission(event){
     let outputPizzaToppingOne = document.getElementById("output-pizza-toppings-one");
     let outputPizzaToppingTwo = document.getElementById("output-pizza-toppings-two");
     let outputPizzaToppingThree = document.getElementById("output-pizza-toppings-three");
-    
+    let outputTotal = document.getElementById("output-total");
+
     outputPizzaSize.innerText = newPizzaOrder.pizzaSize;
     outputPizzaToppingOne.innerText = newPizzaOrder.pizzaToppingOne;
     outputPizzaToppingTwo.innerText = newPizzaOrder.pizzaToppingTwo;
     outputPizzaToppingThree.innerText = newPizzaOrder.pizzaToppingThree;
     pizzaOutput.removeAttribute("class");
+    let totalCost = newPizzaOrder.calculateCost();
+    outputTotal.innerText = totalCost;
     
 
 }
 
+window.addEventListener("load", function() {
+    document.getElementById("pizza-parlor").addEventListener("submit", handleFormSubmission);
+  });
