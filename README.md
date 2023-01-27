@@ -34,7 +34,7 @@ _If you have any issues running this program or wish to contact me please email 
 
 Copyright (c) 1/06/2023 John Lenz(s)
 
-Tests--
+--Tests--
 
 Describe: PizzaOrder()
 
@@ -42,10 +42,18 @@ Test: "It should return a Pizza object with two properties for toppings and size
 Code: const myPizza = new Pizza("medium", "cheese", "cheese");
 Expected Output: Pizza { size: medium, toppings :cheese toppingstwo : cheese
 
-Tests--
+--Tests--
 
 Describe: calculateCost()
 
 Test: "It should return the cost of a pizza at a given size."
 Code: const myPizza = new Pizza("large", "cheese", "cheese");
 Expected Output: Pizza: 18 
+
+--Tests--
+
+Describe: calculateCost()
+
+Test: "It should return the cost of a pizza at a given size and the cost of toppings."
+Code: const myPizza = new Pizza("large", "cheese", "none");
+Expected Output: Pizza: 20
