@@ -1,8 +1,8 @@
 // Buisness Logic--
 
-function PizzaOrder(pizzaSize, pizzaTopping, pizzaToppingTwo, pizzaToppingThree) {
+function PizzaOrder(pizzaSize, pizzaToppingOne, pizzaToppingTwo, pizzaToppingThree) {
     this.pizzaSize = pizzaSize;
-    this.pizzaTopping = pizzaTopping;
+    this.pizzaToppingOne = pizzaToppingOne;
     this.pizzaToppingTwo = pizzaToppingTwo;
     this.pizzaToppingThree = pizzaToppingThree;
 }
@@ -43,7 +43,17 @@ function handleFormSubmission(event){
     let newPizzaOrder = new PizzaOrder(selectedPizzaSize, selectedPizzaToppingOne, selectedPizzaToppingTwo, selectedPizzaToppingThree);
     
     let pizzaOutput = document.getElementById("pizza-total");
-    let outputPizzaSize = document.getElementById("outputName");
-    let outputPizzaToppingOne = document.getElementById("outputTime");
-    let outputPizzaToppingTwo = document.getElementById("outputSpecial");
-    let outputPizzaToppingThree = document.getElementById("outputSpecial");
+    let outputPizzaSize = document.getElementById("output-pizza-size");
+    let outputPizzaToppingOne = document.getElementById("output-pizza-toppings-one");
+    let outputPizzaToppingTwo = document.getElementById("output-pizza-toppings-two");
+    let outputPizzaToppingThree = document.getElementById("output-pizza-toppings-three");
+    
+    outputPizzaSize.innerText = newPizzaOrder.pizzaSize;
+    outputPizzaToppingOne.innerText = newPizzaOrder.pizzaToppingOne;
+    outputPizzaToppingTwo.innerText = newPizzaOrder.pizzaToppingTwo;
+    outputPizzaToppingThree.innerText = newPizzaOrder.pizzaToppingThree;
+    pizzaOutput.removeAttribute("class");
+    
+
+}
+
