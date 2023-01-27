@@ -13,7 +13,7 @@
 
 ## Description
 
-_This is a webpage that thats the input of a user to select a type of Pizza that they would want to order. The website updates to show the toppings change and the cost of the pizza. It uses a javascript function to calculate the price_
+_This is a webpage that thats the input of a user to select a type of Pizza that they would want to order. The website updates to show the toppings change and the cost of the pizza. It uses a javascript function to calculate the price._
 
 ## GitHub Link
 _https://github.com/jlenz27/PizzaParlor_
