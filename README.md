@@ -8,7 +8,7 @@
 
 * _Html_
 * _CSS_
-*_JavaScript_
+* _JavaScript_
 
 
 ## Description
