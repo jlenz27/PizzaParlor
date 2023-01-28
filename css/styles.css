@@ -1,3 +1,17 @@
 .hidden {
     display:none;
   }
+
+  #header {
+    color: red;
+    text-align: center;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #004882;
+    color: beige;
+    size: 25px;
+  }
+  
