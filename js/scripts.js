@@ -12,22 +12,22 @@ PizzaOrder.prototype.selectedPizza = function () {
 }
 
 PizzaOrder.prototype.calculateCost = function () {
-    let cost = 0;
+    let cost = 0.00;
     if (this.pizzaSize === "small") {
-        cost += 10;
+        cost += 10.00;
     } else if (this.pizzaSize === "medium") {
-        cost += 14;
+        cost += 14.00;
     } else if (this.pizzaSize === "large") {
-        cost += 18;
+        cost += 18.00;
     }
     if (this.pizzaTopping !== "none") {
-        cost += 2;
+        cost += 2.00;
     }
     if (this.pizzaToppingTwo !== "none") {
-        cost += 2;
+        cost += 2.00;
     }
     if(this.pizzaToppingThree !== "none"){
-        cost +=2;
+        cost +=2.00;
     }
     return cost
 }
